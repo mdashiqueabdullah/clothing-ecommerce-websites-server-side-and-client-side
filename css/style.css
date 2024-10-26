@@ -118,13 +118,10 @@ section#hero{
 section#hero h4{
   padding-block: 15px;
 }
-section#hero h2{
 
-}
 section#hero h1{
   color: #088178;
 }
-section#hero p{}
 section#hero button{
   background-image: url(../img/button.png);
   border: 0;
@@ -142,6 +139,7 @@ section#hero button{
 section#feature{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 section#feature .fa-box{
   width: 190px;
@@ -181,3 +179,68 @@ section#feature .fa-box:hover{
   box-shadow: 20px 20px 35px rgba(0, 0, 0, 0.2);
 }
 /*Feature End*/
+
+/* Feature product Start */
+section#feature-product{
+  text-align: center;
+}
+
+section#feature-product .all-product{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+section#feature-product .product{
+  width: 23%;
+  min-width: 250px;
+  padding: 10px;
+  border: 1px solid gray;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .4s ease;
+  margin-top: 42px;
+}
+section#feature-product .product:hover{
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+section#feature-product .product img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+section#feature-product .product .product-description{
+  text-align: start;
+  padding: 12px 0px;
+}
+section#feature-product .product .product-description .title{
+  color: #95f376;
+  padding: 5px 0px;
+}
+
+section#feature-product .product .product-description i.fas{
+  color: gold;
+  padding: 5px 0px;
+}
+
+section#feature-product .product .product-description .price-cart{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  align-items: center;
+}
+
+section#feature-product .product .product-description .price-cart i{
+  color: #56cf2e;
+  background-color: #c5f7b55e;
+  padding: 8px;
+  border-radius: 50px;
+  transition: 0.3s ease;
+}
+
+section#feature-product .product .product-description .price-cart i:hover{
+  background-color: #56cf2e;
+  color: #c5f7b55e;
+}
+/* Feature product End */
