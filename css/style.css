@@ -183,6 +183,7 @@ section#feature .fa-box:hover{
 /* Feature product Start */
 section#feature-product{
   text-align: center;
+  padding-bottom: 100px;
 }
 
 section#feature-product .all-product{
@@ -244,3 +245,34 @@ section#feature-product .product .product-description .price-cart i:hover{
   color: #c5f7b55e;
 }
 /* Feature product End */
+
+/* Banner Start  */
+section#banner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-image: url("../img/banner/b1.jpg");
+}
+
+section#banner h4{
+  color: white;
+  padding: 10px 0px;
+}
+section#banner h2{
+  color: white;
+  font-weight: bold;
+  padding: 10px 0px;
+}
+section#banner h2 span{
+  color: red;
+}
+section#banner button{
+  width: 20%;
+  margin: 0px auto;
+  padding: 15px 30px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+/* Banner End  */
