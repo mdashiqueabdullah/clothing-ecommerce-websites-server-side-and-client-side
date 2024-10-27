@@ -276,3 +276,69 @@ section#banner button{
 }
 
 /* Banner End  */
+
+/* Smone Banner start */
+section#more-banner{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+section#more-banner .banner-box{
+  background-image: url(../img/banner/b17.jpg);
+    background-size: cover;
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 30px 54px;
+    height: 45vh;
+    justify-content: center;
+    margin-bottom: 25px;
+    
+}
+
+section#more-banner .banner-box2{
+  background-image: url(../img/banner/b10.jpg)!important;
+}
+
+section#more-banner .banner-box3{
+  background-image: url(../img/banner/b7.jpg)!important;
+  width: 32%!important;
+}
+
+section#more-banner .banner-box4{
+  background-image: url(../img/banner/b4.jpg)!important;
+  width: 32%!important;
+}
+
+section#more-banner .banner-box5{
+  background-image: url(../img/banner/b18.jpg)!important;
+  width: 32%!important;
+}
+
+section#more-banner .banner-box h4{
+  color: white;
+}
+section#more-banner .banner-box h2{
+  color: white;
+  font-size: 35px;
+}
+section#more-banner .banner-box span{
+  color: white;
+}
+
+section#more-banner .banner-box button{
+  color: white;
+  background-color: transparent;
+  padding: 15px 25px;
+  border: 1px solid white;
+  margin-top: 11px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+section#more-banner .banner-box button:hover{
+  background-color: #56cf2e;
+}
+/* Smone Banner End */
